@@ -14,7 +14,7 @@ ENDPOINT = os.environ.get(
     "AZURE_AI_PROJECT_ENDPOINT",
     "https://msftfoundry20290994.services.ai.azure.com/api/projects/AI-project1",
 )
-AGENT_NAME = os.environ.get("AZURE_AI_AGENT_NAME", "lunaagent")
+AGENT_NAME = os.environ.get("AZURE_AI_AGENT_NAME", "luna-agent")
 
 logging.basicConfig(level=os.environ.get("LOG_LEVEL", "INFO"))
 
